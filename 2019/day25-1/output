@@ -1,0 +1,14005 @@
+Up to date
+
+
+
+== Hull Breach ==
+You got in through a hole in the floor here. To keep your ship from also freezing, the hole has been sealed.
+
+Doors here lead:
+- north
+- east
+
+Command?
+east
+
+
+
+== Stables ==
+Reindeer-sized. They're all empty.
+
+Doors here lead:
+- east
+- south
+- west
+
+Items here:
+- loom
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+south
+
+
+
+== Warp Drive Maintenance ==
+It appears to be working normally.
+
+Doors here lead:
+- north
+- east
+- west
+
+Items here:
+- ornament
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+west
+
+
+
+== Hallway ==
+This area has been optimized for something; you're just not quite sure what.
+
+Doors here lead:
+- north
+- east
+
+Command?
+north
+
+
+
+== Observatory ==
+There are a few telescopes; they're all bolted down, though.
+
+Doors here lead:
+- north
+- south
+
+Items here:
+- candy cane
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Hallway ==
+This area has been optimized for something; you're just not quite sure what.
+
+Doors here lead:
+- north
+- east
+
+Command?
+east
+
+
+
+== Warp Drive Maintenance ==
+It appears to be working normally.
+
+Doors here lead:
+- north
+- east
+- west
+
+Command?
+north
+
+
+
+== Stables ==
+Reindeer-sized. They're all empty.
+
+Doors here lead:
+- east
+- south
+- west
+
+Command?
+east
+
+
+
+== Science Lab ==
+You see evidence here of prototype polymer design work.
+
+Doors here lead:
+- north
+- west
+
+Items here:
+- fixed point
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+north
+
+
+
+== Storage ==
+The boxes just contain more boxes.  Recursively.
+
+Doors here lead:
+- north
+- south
+- west
+
+Items here:
+- spool of cat6
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+north
+
+
+
+== Gift Wrapping Center ==
+How else do you wrap presents on the go?
+
+Doors here lead:
+- south
+
+Items here:
+- weather machine
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Storage ==
+The boxes just contain more boxes.  Recursively.
+
+Doors here lead:
+- north
+- south
+- west
+
+Command?
+west
+
+
+
+== Sick Bay ==
+Supports both Red-Nosed Reindeer medicine and regular reindeer medicine.
+
+Doors here lead:
+- east
+
+Items here:
+- shell
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+east
+
+
+
+== Storage ==
+The boxes just contain more boxes.  Recursively.
+
+Doors here lead:
+- north
+- south
+- west
+
+Command?
+south
+
+
+
+== Science Lab ==
+You see evidence here of prototype polymer design work.
+
+Doors here lead:
+- north
+- west
+
+Command?
+west
+
+
+
+== Stables ==
+Reindeer-sized. They're all empty.
+
+Doors here lead:
+- east
+- south
+- west
+
+Command?
+west
+
+
+
+== Hull Breach ==
+You got in through a hole in the floor here. To keep your ship from also freezing, the hole has been sealed.
+
+Doors here lead:
+- north
+- east
+
+Command?
+north
+
+
+
+== Passages ==
+They're a little twisty and starting to look all alike.
+
+Doors here lead:
+- north
+- east
+- south
+
+Items here:
+- wreath
+
+Command?
+north
+
+
+
+== Navigation ==
+Status: Stranded. Please supply measurements from fifty stars to recalibrate.
+
+Doors here lead:
+- east
+- south
+
+Items here:
+- photons
+
+Command?
+east
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- shell
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- shell
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- shell
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- fixed point
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- fixed point
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- fixed point
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- fixed point
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- fixed point
+- shell
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- fixed point
+- shell
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- fixed point
+- shell
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- fixed point
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- shell
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- shell
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- shell
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- fixed point
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- fixed point
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- fixed point
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- fixed point
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- fixed point
+- shell
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- fixed point
+- shell
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- fixed point
+- shell
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- fixed point
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- shell
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- shell
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- shell
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- fixed point
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- fixed point
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- fixed point
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- fixed point
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- fixed point
+- shell
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- fixed point
+- shell
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- fixed point
+- shell
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- fixed point
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- shell
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- shell
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- shell
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- fixed point
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- fixed point
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- fixed point
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- fixed point
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- fixed point
+- shell
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- fixed point
+- shell
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- fixed point
+- shell
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- spool of cat6
+- fixed point
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- shell
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- shell
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- shell
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- fixed point
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- fixed point
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- fixed point
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- fixed point
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- fixed point
+- shell
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- fixed point
+- shell
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- fixed point
+- shell
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- fixed point
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- shell
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- shell
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- shell
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- fixed point
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- fixed point
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- fixed point
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- fixed point
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- fixed point
+- shell
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- fixed point
+- shell
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- fixed point
+- shell
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- fixed point
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- shell
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- shell
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- shell
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- fixed point
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- fixed point
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- fixed point
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- fixed point
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- fixed point
+- shell
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- fixed point
+- shell
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- fixed point
+- shell
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- fixed point
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- shell
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- shell
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- shell
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- fixed point
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- fixed point
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- fixed point
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- fixed point
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- fixed point
+- shell
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- fixed point
+- shell
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- fixed point
+- shell
+- candy cane
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take ornament
+
+You take the ornament.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- loom
+- spool of cat6
+- fixed point
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop ornament
+
+You drop the ornament.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- candy cane
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- candy cane
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- shell
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- shell
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- shell
+- candy cane
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- fixed point
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- fixed point
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- fixed point
+- candy cane
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- fixed point
+- candy cane
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- fixed point
+- shell
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- fixed point
+- shell
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- fixed point
+- shell
+- candy cane
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- fixed point
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- candy cane
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- candy cane
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- shell
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- shell
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- shell
+- candy cane
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- fixed point
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- fixed point
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- fixed point
+- candy cane
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- fixed point
+- candy cane
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- fixed point
+- shell
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- fixed point
+- shell
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- fixed point
+- shell
+- candy cane
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- fixed point
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- candy cane
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- candy cane
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- shell
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- shell
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- shell
+- candy cane
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- fixed point
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- fixed point
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- fixed point
+- candy cane
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- fixed point
+- candy cane
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- fixed point
+- shell
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- fixed point
+- shell
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- fixed point
+- shell
+- candy cane
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- fixed point
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- candy cane
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- candy cane
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- shell
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- shell
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- shell
+- candy cane
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- fixed point
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- fixed point
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- fixed point
+- candy cane
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- fixed point
+- candy cane
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- fixed point
+- shell
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- fixed point
+- shell
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- fixed point
+- shell
+- candy cane
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take loom
+
+You take the loom.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- spool of cat6
+- fixed point
+- shell
+- candy cane
+- weather machine
+
+Command?
+drop loom
+
+You drop the loom.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+take weather machine
+
+You take the weather machine.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- ornament
+- loom
+
+Command?
+drop spool of cat6
+
+You drop the spool of cat6.
+
+Command?
+drop wreath
+
+You don't have that item.
+
+Command?
+drop fixed point
+
+You drop the fixed point.
+
+Command?
+drop shell
+
+You drop the shell.
+
+Command?
+drop candy cane
+
+You drop the candy cane.
+
+Command?
+drop weather machine
+
+You drop the weather machine.
+
+Command?
+take spool of cat6
+
+You take the spool of cat6.
+
+Command?
+take wreath
+
+You don't see that item here.
+
+Command?
+take fixed point
+
+You take the fixed point.
+
+Command?
+take shell
+
+You take the shell.
+
+Command?
+take candy cane
+
+You take the candy cane.
+
+Command?
+south
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- north
+
+A loud, robotic voice says "Analysis complete! You may proceed." and you enter the cockpit.
+Santa notices your small droid, looks puzzled for a moment, realizes what has happened, and radios your ship directly.
+"Oh, hello! You should be able to get in by typing 352325632 on the keypad at the main airlock."

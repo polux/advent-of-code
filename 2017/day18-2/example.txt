@@ -1,0 +1,9 @@
+set x 1
+set y 2
+snd x
+snd y
+snd p
+rcv a
+rcv b
+rcv c
+rcv d

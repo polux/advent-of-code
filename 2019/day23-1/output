@@ -1,0 +1,10 @@
+
+src/Main.hs:74:5: warning: [-Wincomplete-uni-patterns]
+    Pattern match(es) are non-exhaustive
+    In a pattern binding:
+        Patterns not matched:
+            Done _
+            WriteOutput _ _
+   |
+74 |     (ReadInput k) = parseToMachine str
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

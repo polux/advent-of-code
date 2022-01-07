@@ -1,0 +1,37 @@
+name:                aoc
+version:             0.1.0.0
+build-type:          Simple
+cabal-version:       >=1.10
+
+library
+  exposed-modules:
+      Intcode
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , containers
+    , mtl
+    , vector
+    , split
+  ghc-options: -O2
+
+executable aoc-exe
+  main-is: Main.hs
+  hs-source-dirs:
+      app
+  build-depends:
+      base >=4.7 && <5
+    , aoc
+    , containers
+  ghc-options: -O2
+
+test-suite aoc-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  hs-source-dirs:
+      test
+  build-depends:
+      base >=4.7 && <5
+    , aoc
+    , hspec

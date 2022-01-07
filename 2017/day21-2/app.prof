@@ -1,0 +1,187 @@
+	Wed Jan 27 09:07 2021 Time and Allocation Profiling Report  (Final)
+
+	   app +RTS -p -RTS
+
+	total time  =       13.76 secs   (13762 ticks @ 1000 us, 1 processor)
+	total alloc = 5,829,477,568 bytes  (excludes profiling overheads)
+
+COST CENTRE     MODULE    SRC                           %time %alloc
+
+toArr.at        Main      src/Main.hs:(104,5)-(110,28)   55.0    0.0
+size            Main      src/Main.hs:(81,1)-(83,24)     19.2    0.0
+step            Main      src/Main.hs:(136,1)-(139,34)   10.7   88.8
+toArr.at.(...)  Main      src/Main.hs:110:9-28            6.9    0.0
+toArr.at.(...)  Main      src/Main.hs:107:9-28            6.0    0.0
+divide.subArray Main      src/Main.hs:116:4-70            0.7    3.9
+toArr           Main      src/Main.hs:(101,1)-(110,28)    0.7    3.3
+divide          Main      src/Main.hs:(113,1)-(116,70)    0.1    1.4
+
+
+                                                                                                                            individual      inherited
+COST CENTRE                  MODULE                    SRC                                               no.     entries  %time %alloc   %time %alloc
+
+MAIN                         MAIN                      <built-in>                                        388          0    0.0    0.0   100.0  100.0
+ CAF                         Main                      <entire-module>                                   774          0    0.0    0.0     0.0    0.0
+  initArr                    Main                      src/Main.hs:145:1-45                              779          1    0.0    0.0     0.0    0.0
+   arrayFromList2D           Util                      src/Util.hs:(49,1)-(57,36)                        780          1    0.0    0.0     0.0    0.0
+    mkV2                     Util                      src/Util.hs:77:3-19                               781         11    0.0    0.0     0.0    0.0
+    arrayFromList2D.height   Util                      src/Util.hs:54:5-22                               783          1    0.0    0.0     0.0    0.0
+    arrayFromList2D.width    Util                      src/Util.hs:(55,5)-(57,36)                        782          1    0.0    0.0     0.0    0.0
+  main                       Main                      src/Main.hs:119:1-47                              776          1    0.0    0.0     0.0    0.0
+  parse                      Main                      src/Main.hs:(122,1)-(127,53)                      820          1    0.0    0.0     0.0    0.0
+   parse.parseArray          Main                      src/Main.hs:127:4-53                              837          0    0.0    0.0     0.0    0.0
+    splitOn                  Data.List.Split.Internals src/Data/List/Split/Internals.hs:421:1-42         838          0    0.0    0.0     0.0    0.0
+     dropDelims              Data.List.Split.Internals src/Data/List/Split/Internals.hs:295:1-39         840          1    0.0    0.0     0.0    0.0
+     onSublist               Data.List.Split.Internals src/Data/List/Split/Internals.hs:278:1-72         874          0    0.0    0.0     0.0    0.0
+   parse.parseLine           Main                      src/Main.hs:(124,4)-(126,40)                      852          0    0.0    0.0     0.0    0.0
+    parse.parseLine.(...)    Main                      src/Main.hs:125:10-39                             853          0    0.0    0.0     0.0    0.0
+     splitOn                 Data.List.Split.Internals src/Data/List/Split/Internals.hs:421:1-42         854          0    0.0    0.0     0.0    0.0
+      dropDelims             Data.List.Split.Internals src/Data/List/Split/Internals.hs:295:1-39         855          1    0.0    0.0     0.0    0.0
+      onSublist              Data.List.Split.Internals src/Data/List/Split/Internals.hs:278:1-72         861          0    0.0    0.0     0.0    0.0
+  collage                    Main                      src/Main.hs:(130,1)-(133,28)                      807          0    0.0    0.0     0.0    0.0
+   collage.hconcat           Main                      src/Main.hs:132:5-28                              808          1    0.0    0.0     0.0    0.0
+ CAF                         Data.List.Split.Internals <entire-module>                                   773          0    0.0    0.0     0.0    0.0
+  defaultSplitter            Data.List.Split.Internals src/Data/List/Split/Internals.hs:(58,1)-(63,28)   839          1    0.0    0.0     0.0    0.0
+ CAF                         GHC.Conc.Signal           <entire-module>                                   494          0    0.0    0.0     0.0    0.0
+ CAF                         GHC.IO.Encoding           <entire-module>                                   476          0    0.0    0.0     0.0    0.0
+ CAF                         GHC.IO.Encoding.Iconv     <entire-module>                                   474          0    0.0    0.0     0.0    0.0
+ CAF                         GHC.IO.Exception          <entire-module>                                   468          0    0.0    0.0     0.0    0.0
+ CAF                         GHC.IO.Handle.FD          <entire-module>                                   466          0    0.0    0.0     0.0    0.0
+ CAF                         GHC.IO.Handle.Internals   <entire-module>                                   465          0    0.0    0.0     0.0    0.0
+ CAF                         GHC.TopHandler            <entire-module>                                   440          0    0.0    0.0     0.0    0.0
+ main                        Main                      src/Main.hs:119:1-47                              777          0    0.0    0.0   100.0  100.0
+  solve                      Main                      src/Main.hs:(164,1)-(171,48)                      778          1    0.0    0.0   100.0   99.9
+   count                     Main                      src/Main.hs:142:1-46                              784         18    0.1    0.0     0.1    0.0
+   step                      Main                      src/Main.hs:(136,1)-(139,34)                      785         17   10.7   88.8    99.9   99.7
+    collage                  Main                      src/Main.hs:(130,1)-(133,28)                      805         17    0.1    0.9     0.6    2.2
+     toGrid                  Main                      src/Main.hs:86:1-31                               811     398579    0.0    0.0     0.3    0.4
+      arraySize              Util                      src/Util.hs:(81,1)-(83,32)                        816     398579    0.2    0.4     0.3    0.4
+       arraySize.(...)       Util                      src/Util.hs:82:7-47                               817     398579    0.0    0.0     0.0    0.0
+        toPair               Util                      src/Util.hs:78:3-26                               818     398579    0.0    0.0     0.0    0.0
+       arraySize.maxI        Util                      src/Util.hs:82:7-47                               909     398579    0.0    0.0     0.0    0.0
+       arraySize.maxJ        Util                      src/Util.hs:82:7-47                               908     398579    0.0    0.0     0.0    0.0
+       mkV2                  Util                      src/Util.hs:77:3-19                               910     398579    0.0    0.0     0.0    0.0
+     collage.vconcat         Main                      src/Main.hs:133:5-28                              806         17    0.0    0.0     0.0    0.0
+      vappend                Main                      src/Main.hs:(95,1)-(98,26)                        913       1438    0.0    0.0     0.0    0.0
+       vappend.(...)         Main                      src/Main.hs:98:5-26                               927       1438    0.0    0.0     0.0    0.0
+        size                 Main                      src/Main.hs:(81,1)-(83,24)                        928       1438    0.0    0.0     0.0    0.0
+       vappend.(...)         Main                      src/Main.hs:97:5-26                               915       1438    0.0    0.0     0.0    0.0
+        size                 Main                      src/Main.hs:(81,1)-(83,24)                        916       1438    0.0    0.0     0.0    0.0
+       vappend.a1h           Main                      src/Main.hs:97:5-26                               925       1438    0.0    0.0     0.0    0.0
+       vappend.a1w           Main                      src/Main.hs:97:5-26                               914       1438    0.0    0.0     0.0    0.0
+       vappend.a2h           Main                      src/Main.hs:98:5-26                               926       1438    0.0    0.0     0.0    0.0
+     collage.hconcat         Main                      src/Main.hs:132:5-28                              809          0    0.1    0.6     0.2    0.9
+      happend                Main                      src/Main.hs:(89,1)-(92,26)                        917     397124    0.1    0.3     0.2    0.3
+       happend.(...)         Main                      src/Main.hs:92:5-26                               922     397124    0.0    0.0     0.0    0.0
+        size                 Main                      src/Main.hs:(81,1)-(83,24)                        923     397124    0.0    0.0     0.0    0.0
+       happend.(...)         Main                      src/Main.hs:91:5-26                               919     397124    0.0    0.0     0.0    0.0
+        size                 Main                      src/Main.hs:(81,1)-(83,24)                        920     397124    0.0    0.0     0.0    0.0
+       happend.a1h           Main                      src/Main.hs:91:5-26                               924     397124    0.0    0.0     0.0    0.0
+       happend.a1w           Main                      src/Main.hs:91:5-26                               918     397124    0.0    0.0     0.0    0.0
+       happend.a2w           Main                      src/Main.hs:92:5-26                               921     397124    0.0    0.0     0.0    0.0
+    divide                   Main                      src/Main.hs:(113,1)-(116,70)                      795         17    0.1    1.4     0.8    5.3
+     divide.subArray         Main                      src/Main.hs:116:4-70                              796     398579    0.7    3.9     0.7    3.9
+     divide.(...)            Main                      src/Main.hs:115:4-25                              798         17    0.0    0.0     0.0    0.0
+      arraySize              Util                      src/Util.hs:(81,1)-(83,32)                        799         17    0.0    0.0     0.0    0.0
+       arraySize.(...)       Util                      src/Util.hs:82:7-47                               800         17    0.0    0.0     0.0    0.0
+        toPair               Util                      src/Util.hs:78:3-26                               801         17    0.0    0.0     0.0    0.0
+       arraySize.maxI        Util                      src/Util.hs:82:7-47                               803         17    0.0    0.0     0.0    0.0
+       arraySize.maxJ        Util                      src/Util.hs:82:7-47                               802         17    0.0    0.0     0.0    0.0
+       mkV2                  Util                      src/Util.hs:77:3-19                               804         17    0.0    0.0     0.0    0.0
+     divide.h                Main                      src/Main.hs:115:4-25                              810         17    0.0    0.0     0.0    0.0
+     divide.w                Main                      src/Main.hs:115:4-25                              797         17    0.0    0.0     0.0    0.0
+    step.(...)               Main                      src/Main.hs:138:5-26                              786         17    0.0    0.0     0.0    0.0
+     arraySize               Util                      src/Util.hs:(81,1)-(83,32)                        787         17    0.0    0.0     0.0    0.0
+      arraySize.(...)        Util                      src/Util.hs:82:7-47                               788         17    0.0    0.0     0.0    0.0
+       toPair                Util                      src/Util.hs:78:3-26                               789         17    0.0    0.0     0.0    0.0
+      arraySize.maxI         Util                      src/Util.hs:82:7-47                               791         17    0.0    0.0     0.0    0.0
+      arraySize.maxJ         Util                      src/Util.hs:82:7-47                               790         17    0.0    0.0     0.0    0.0
+      mkV2                   Util                      src/Util.hs:77:3-19                               792         17    0.0    0.0     0.0    0.0
+    step.step                Main                      src/Main.hs:139:5-34                              794         17    0.0    0.0     0.0    0.0
+    step.w                   Main                      src/Main.hs:138:5-26                              793         17    0.0    0.0     0.0    0.0
+    toArr                    Main                      src/Main.hs:(101,1)-(110,28)                      812         17    0.7    3.3    87.7    3.3
+     toArr.at                Main                      src/Main.hs:(104,5)-(110,28)                      912  426839435   55.0    0.0    87.0    0.0
+      toArr.at.(...)         Main                      src/Main.hs:110:9-28                              930  217553811    6.9    0.0    13.4    0.0
+       size                  Main                      src/Main.hs:(81,1)-(83,24)                        931  217553811    6.5    0.0     6.5    0.0
+      toArr.at.a1h           Main                      src/Main.hs:110:9-28                              929  217553811    0.0    0.0     0.0    0.0
+      toArr.at.(...)         Main                      src/Main.hs:107:9-28                              933  207315851    6.0    0.0    18.6    0.0
+       size                  Main                      src/Main.hs:(81,1)-(83,24)                        934  207315851   12.6    0.0    12.6    0.0
+      toArr.at.a1w           Main                      src/Main.hs:107:9-28                              932  207315851    0.0    0.0     0.0    0.0
+     toArr.(...)             Main                      src/Main.hs:103:5-24                              814         17    0.0    0.0     0.0    0.0
+      size                   Main                      src/Main.hs:(81,1)-(83,24)                        815         17    0.0    0.0     0.0    0.0
+     toArr.h                 Main                      src/Main.hs:103:5-24                              911         17    0.0    0.0     0.0    0.0
+     toArr.w                 Main                      src/Main.hs:103:5-24                              813         17    0.0    0.0     0.0    0.0
+   solve.complete            Main                      src/Main.hs:170:4-55                              819          1    0.1    0.3     0.1    0.3
+    solve.expand             Main                      src/Main.hs:171:4-48                              822        108    0.0    0.0     0.0    0.0
+     variants                Main                      src/Main.hs:(160,1)-(162,48)                      824        108    0.0    0.0     0.0    0.0
+      mirror                 Main                      src/Main.hs:(154,1)-(157,31)                      898        432    0.0    0.0     0.0    0.0
+       mirror.newIdx         Main                      src/Main.hs:156:5-38                              899       3768    0.0    0.0     0.0    0.0
+       mirror.(...)          Main                      src/Main.hs:157:5-31                              900        432    0.0    0.0     0.0    0.0
+        arraySize            Util                      src/Util.hs:(81,1)-(83,32)                        901        432    0.0    0.0     0.0    0.0
+         arraySize.(...)     Util                      src/Util.hs:82:7-47                               902        432    0.0    0.0     0.0    0.0
+          toPair             Util                      src/Util.hs:78:3-26                               903        432    0.0    0.0     0.0    0.0
+         arraySize.maxI      Util                      src/Util.hs:82:7-47                               905        432    0.0    0.0     0.0    0.0
+         arraySize.maxJ      Util                      src/Util.hs:82:7-47                               904        432    0.0    0.0     0.0    0.0
+         mkV2                Util                      src/Util.hs:77:3-19                               906        432    0.0    0.0     0.0    0.0
+       mirror.w              Main                      src/Main.hs:157:5-31                              907        432    0.0    0.0     0.0    0.0
+      variants.rotations     Main                      src/Main.hs:162:5-48                              825        108    0.0    0.0     0.0    0.0
+       rotate90              Main                      src/Main.hs:(148,1)-(151,31)                      887        324    0.0    0.0     0.0    0.0
+        rotate90.newIdx      Main                      src/Main.hs:150:5-38                              888       2826    0.0    0.0     0.0    0.0
+        rotate90.(...)       Main                      src/Main.hs:151:5-31                              889        324    0.0    0.0     0.0    0.0
+         arraySize           Util                      src/Util.hs:(81,1)-(83,32)                        890        324    0.0    0.0     0.0    0.0
+          arraySize.(...)    Util                      src/Util.hs:82:7-47                               891        324    0.0    0.0     0.0    0.0
+           toPair            Util                      src/Util.hs:78:3-26                               892        324    0.0    0.0     0.0    0.0
+          arraySize.maxI     Util                      src/Util.hs:82:7-47                               894        324    0.0    0.0     0.0    0.0
+          arraySize.maxJ     Util                      src/Util.hs:82:7-47                               893        324    0.0    0.0     0.0    0.0
+          mkV2               Util                      src/Util.hs:77:3-19                               895        324    0.0    0.0     0.0    0.0
+        rotate90.w           Main                      src/Main.hs:151:5-31                              896        324    0.0    0.0     0.0    0.0
+  parse                      Main                      src/Main.hs:(122,1)-(127,53)                      821          0    0.0    0.0     0.0    0.1
+   parse.parseLine           Main                      src/Main.hs:(124,4)-(126,40)                      823        108    0.0    0.0     0.0    0.0
+    parse.parseArray         Main                      src/Main.hs:127:4-53                              826        216    0.0    0.0     0.0    0.0
+     arrayFromList2D         Util                      src/Util.hs:(49,1)-(57,36)                        827        216    0.0    0.0     0.0    0.0
+      mkV2                   Util                      src/Util.hs:77:3-19                               828       3060    0.0    0.0     0.0    0.0
+      arrayFromList2D.height Util                      src/Util.hs:54:5-22                               830        216    0.0    0.0     0.0    0.0
+      arrayFromList2D.width  Util                      src/Util.hs:(55,5)-(57,36)                        829        216    0.0    0.0     0.0    0.0
+     splitOn                 Data.List.Split.Internals src/Data/List/Split/Internals.hs:421:1-42         831        216    0.0    0.0     0.0    0.0
+      onSublist              Data.List.Split.Internals src/Data/List/Split/Internals.hs:278:1-72         836        216    0.0    0.0     0.0    0.0
+      split                  Data.List.Split.Internals src/Data/List/Split/Internals.hs:249:1-68         832        216    0.0    0.0     0.0    0.0
+       fromElem              Data.List.Split.Internals src/Data/List/Split/Internals.hs:(116,1)-(117,24) 886        744    0.0    0.0     0.0    0.0
+       splitInternal         Data.List.Split.Internals src/Data/List/Split/Internals.hs:(139,1)-(148,70) 843        744    0.0    0.0     0.0    0.0
+        breakDelim           Data.List.Split.Internals src/Data/List/Split/Internals.hs:(151,1)-(156,36) 872       3372    0.0    0.0     0.0    0.0
+         matchDelim          Data.List.Split.Internals src/Data/List/Split/Internals.hs:(73,1)-(77,23)   875       3684    0.0    0.0     0.0    0.0
+       delimiter             Data.List.Split.Internals src/Data/List/Split/Internals.hs:25:30-38         873        216    0.0    0.0     0.0    0.0
+       postProcess           Data.List.Split.Internals src/Data/List/Split/Internals.hs:(163,1)-(168,45) 833        216    0.0    0.0     0.0    0.0
+        condensePolicy       Data.List.Split.Internals src/Data/List/Split/Internals.hs:32:30-43         842        216    0.0    0.0     0.0    0.0
+        delimPolicy          Data.List.Split.Internals src/Data/List/Split/Internals.hs:27:30-40         835        216    0.0    0.0     0.0    0.0
+        doCondense           Data.List.Split.Internals src/Data/List/Split/Internals.hs:(178,1)-(183,20) 841        216    0.0    0.0     0.0    0.0
+        doDrop               Data.List.Split.Internals src/Data/List/Split/Internals.hs:(172,1)-(173,14) 881        216    0.0    0.0     0.0    0.0
+        doMerge              Data.List.Split.Internals src/Data/List/Split/Internals.hs:(205,1)-(207,14) 834        216    0.0    0.0     0.0    0.0
+        dropFinal            Data.List.Split.Internals src/Data/List/Split/Internals.hs:(236,1)-(241,26) 884        216    0.0    0.0     0.0    0.0
+        dropInitial          Data.List.Split.Internals src/Data/List/Split/Internals.hs:(231,1)-(232,19) 882        216    0.0    0.0     0.0    0.0
+        finalBlankPolicy     Data.List.Split.Internals src/Data/List/Split/Internals.hs:37:30-45         885        216    0.0    0.0     0.0    0.0
+        initBlankPolicy      Data.List.Split.Internals src/Data/List/Split/Internals.hs:35:30-44         883        216    0.0    0.0     0.0    0.0
+        insertBlanks         Data.List.Split.Internals src/Data/List/Split/Internals.hs:(189,1)-(191,38) 879        216    0.0    0.0     0.0    0.0
+         insertBlanks'       Data.List.Split.Internals src/Data/List/Split/Internals.hs:(195,1)-(201,49) 880       1488    0.0    0.0     0.0    0.0
+    parse.parseLine.(...)    Main                      src/Main.hs:125:10-39                             845        108    0.0    0.0     0.0    0.0
+     splitOn                 Data.List.Split.Internals src/Data/List/Split/Internals.hs:421:1-42         846        108    0.0    0.0     0.0    0.0
+      onSublist              Data.List.Split.Internals src/Data/List/Split/Internals.hs:278:1-72         851        108    0.0    0.0     0.0    0.0
+      split                  Data.List.Split.Internals src/Data/List/Split/Internals.hs:249:1-68         847        108    0.0    0.0     0.0    0.0
+       fromElem              Data.List.Split.Internals src/Data/List/Split/Internals.hs:(116,1)-(117,24) 871        216    0.0    0.0     0.0    0.0
+       splitInternal         Data.List.Split.Internals src/Data/List/Split/Internals.hs:(139,1)-(148,70) 858        216    0.0    0.0     0.0    0.0
+        breakDelim           Data.List.Split.Internals src/Data/List/Split/Internals.hs:(151,1)-(156,36) 859       3372    0.0    0.0     0.0    0.0
+         matchDelim          Data.List.Split.Internals src/Data/List/Split/Internals.hs:(73,1)-(77,23)   862       3696    0.0    0.0     0.0    0.0
+       delimiter             Data.List.Split.Internals src/Data/List/Split/Internals.hs:25:30-38         860        108    0.0    0.0     0.0    0.0
+       postProcess           Data.List.Split.Internals src/Data/List/Split/Internals.hs:(163,1)-(168,45) 848        108    0.0    0.0     0.0    0.0
+        condensePolicy       Data.List.Split.Internals src/Data/List/Split/Internals.hs:32:30-43         857        108    0.0    0.0     0.0    0.0
+        delimPolicy          Data.List.Split.Internals src/Data/List/Split/Internals.hs:27:30-40         850        108    0.0    0.0     0.0    0.0
+        doCondense           Data.List.Split.Internals src/Data/List/Split/Internals.hs:(178,1)-(183,20) 856        108    0.0    0.0     0.0    0.0
+        doDrop               Data.List.Split.Internals src/Data/List/Split/Internals.hs:(172,1)-(173,14) 865        108    0.0    0.0     0.0    0.0
+        doMerge              Data.List.Split.Internals src/Data/List/Split/Internals.hs:(205,1)-(207,14) 849        108    0.0    0.0     0.0    0.0
+        dropFinal            Data.List.Split.Internals src/Data/List/Split/Internals.hs:(236,1)-(241,26) 868        108    0.0    0.0     0.0    0.0
+        dropInitial          Data.List.Split.Internals src/Data/List/Split/Internals.hs:(231,1)-(232,19) 866        108    0.0    0.0     0.0    0.0
+        finalBlankPolicy     Data.List.Split.Internals src/Data/List/Split/Internals.hs:37:30-45         869        108    0.0    0.0     0.0    0.0
+        initBlankPolicy      Data.List.Split.Internals src/Data/List/Split/Internals.hs:35:30-44         867        108    0.0    0.0     0.0    0.0
+        insertBlanks         Data.List.Split.Internals src/Data/List/Split/Internals.hs:(189,1)-(191,38) 863        108    0.0    0.0     0.0    0.0
+         insertBlanks'       Data.List.Split.Internals src/Data/List/Split/Internals.hs:(195,1)-(201,49) 864        432    0.0    0.0     0.0    0.0
+    parse.parseLine.lhs      Main                      src/Main.hs:125:10-39                             844        108    0.0    0.0     0.0    0.0
+    parse.parseLine.rhs      Main                      src/Main.hs:125:10-39                             897        108    0.0    0.0     0.0    0.0
