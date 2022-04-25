@@ -13,6 +13,8 @@
 {-# LANGUAGE RecordWildCards #-}
 {-# LANGUAGE TupleSections #-}
 {-# LANGUAGE ViewPatterns #-}
+{-# OPTIONS_GHC -Wno-incomplete-patterns #-}
+{-# LANGUAGE NamedFieldPuns #-}
 
 -- #endregion
 
@@ -21,9 +23,9 @@ module Main where
 -- #region imports
 
 import Control.Arrow (Arrow (first, second), (***), (>>>))
-import Control.Lens (Lens', at, each, folded, isn't, ix, traversed, (%~), (&), (+~), (.~), (?~), (^.), (^..), (^?), _1, _2, _3, _4)
+import Control.Lens (Lens', at, each, folded, isn't, ix, traversed, (%~), (&), (+~), (.~), (?~), (^.), (^..), (^?), _1, _2, _3, _4, (^?!))
 import Control.Lens.Extras (is)
-import Control.Monad (forM_, replicateM, unless, when)
+import Control.Monad (forM_, replicateM, unless, when, zipWithM, zipWithM_)
 import qualified Data.Array as A
 import qualified Data.Array.Unboxed as UA
 import qualified Data.ByteString as BS
@@ -34,13 +36,13 @@ import Data.Functor ((<&>))
 import Data.Generics.Labels ()
 import qualified Data.Graph.Inductive as G
 import Data.Graph.Inductive.PatriciaTree (Gr)
-import Data.List (elemIndex, sortOn, zip4)
+import Data.List (elemIndex, sortOn, zip4, foldl')
 import Data.List.Split (chunksOf, splitOn)
 import Data.Map.Strict (Map)
 import qualified Data.Map.Strict as M
 import Data.Maybe (catMaybes, fromJust)
 import Data.MemoTrie
-import Data.SBV (EqSymbolic ((.==)), Goal, Mergeable (symbolicMerge), OrdSymbolic (inRange, (.<=), (.>=)), SDivisible (sDiv, sMod), constrain, maximize, sInt, sInt64, sInteger, optimizeWith, z3, OptimizeStyle (Lexicographic))
+import Data.SBV (EqSymbolic ((.==)), Goal, Mergeable (symbolicMerge), OrdSymbolic (inRange, (.<=), (.>=)), SDivisible (sDiv, sMod), constrain, maximize, sInt, sInt64, sInteger, optimizeWith, z3, OptimizeStyle (Lexicographic), SWord32, ite, oneIf, sWord32, sWord64, OptimizeResult (LexicographicResult), SMTResult (Satisfiable))
 import Data.Sequence (Seq (..))
 import qualified Data.Sequence as Seq
 import Data.Set (Set)
@@ -63,6 +65,7 @@ import Text.Pretty.Simple (pPrint, pShow)
 import Text.Printf (printf)
 import Text.Regex.PCRE ((=~))
 import Util
+import Data.SBV.Internals (SMTModel(SMTModel, modelAssocs), modelAssocs, CV (CV), CVal (CInteger))
 
 -- #endregion
 
@@ -81,32 +84,17 @@ parseRegex = map parseLine . T.lines . T.pack
 type Input = [Instr]
 type VInput = V.Vector Instr
 
-data Name = W | X | Y | Z
-  deriving (Eq, Show)
+type Name = String
 data Val = Var Name | Lit Int
   deriving (Eq, Show)
 data Instr = Inp Name | Add Name Val | Mul Name Val | Div Name Val | Mod Name Val | Eql Name Val
   deriving (Eq, Show)
 
-data MachineState = MachineState {pc :: Int, input :: [Int], w :: Int, x :: Int, y :: Int, z :: Int}
-  deriving (Eq, Show, Generic)
-
-atName :: Name -> Lens' MachineState Int
-atName W = #w
-atName X = #x
-atName Y = #y
-atName Z = #z
-
-main :: IO ()
-main = optimizeWith z3 Lexicographic problem >>= print
-
---readFile "input" >>= putStrLn . prettyProg . parse
-
 parse :: String -> Input
 parse str = map parseLine (lines str)
  where
-  parseLine (words -> ["inp", parseName -> name]) = Inp name
-  parseLine (words -> [parseBinCode -> opCode, parseName -> name, parseVal -> val]) = opCode name val
+  parseLine (words -> ["inp", name]) = Inp name
+  parseLine (words -> [parseBinCode -> opCode, name, parseVal -> val]) = opCode name val
   parseLine _ = error "cannot parse line"
   parseBinCode "add" = Add
   parseBinCode "mul" = Mul
@@ -114,41 +102,43 @@ parse str = map parseLine (lines str)
   parseBinCode "mod" = Mod
   parseBinCode "eql" = Eql
   parseBinCode _ = error "unknown bin code"
-  parseName "w" = W
-  parseName "x" = X
-  parseName "y" = Y
-  parseName "z" = Z
-  parseName _ = error "unkonwn name"
-  parseVal s = maybe (Var (parseName s)) Lit (readMay s)
+  parseVal s = maybe (Var s) Lit (readMay s)
 
-step :: VInput -> MachineState -> Maybe MachineState
-step prog m = apply <$> prog ^? ix (pc m)
+eval :: Input -> [SWord32] -> Map String SWord32 -> Map String SWord32
+eval [] _ m = m
+eval (Inp x : prog) (i:is) m = eval prog is (M.insert x i m)
+eval (instr : prog) is m = eval prog is (apply instr)
  where
-  apply (Inp x) =
-    m & #input %~ tail
-      & atName x .~ head (input m)
-      & #pc +~ 1
   apply (Add x v) = applyBin (+) x v
   apply (Mul x v) = applyBin (*) x v
-  apply (Div x v) = applyBin div x v
-  apply (Mod x v) = applyBin safeMod x v
-  apply (Eql x v) = applyBin (\a b -> if a == b then 1 else 0) x v
-  applyBin f x v =
-    m & atName x .~ f (m ^. atName x) (resolve v)
-      & #pc +~ 1
-  safeMod a b
-    | a < 0 || b <= 0 = error "mod"
-    | otherwise = a `mod` b
-  resolve (Lit i) = i
-  resolve (Var x) = m ^. atName x
+  apply (Div x v) = applyBin sDiv x v
+  apply (Mod x v) = applyBin sMod x v
+  apply (Eql x v) = applyBin (\a b -> oneIf (a .== b)) x v
+  applyBin f x v = M.insert x (f (m M.! x) (resolve v)) m
+  resolve (Lit i) = fromIntegral i
+  resolve (Var x) = m M.! x
 
-eval :: Input -> [Int] -> MachineState
-eval prog input = go (MachineState 0 input 0 0 0 0)
+-- names of the symbolic varialbes representing the input
+wNames :: [String]
+wNames = ["w"++show i | i <- [1..14]]
+
+problem :: Input -> Goal
+problem prog = do
+  ws <- mapM sWord32 wNames
+  forM_ ws $ \wi -> do
+    constrain (inRange wi (1, 9))
+  constrain (eval prog ws (M.fromList [("w", 0), ("x", 0), ("y", 0), ("z", 0)]) M.! "z" .== 0)
+  mapM_ (maximize "") ws
+
+main :: IO ()
+main = do
+  prog <- parse <$> readFile "input"
+  LexicographicResult (Satisfiable _ SMTModel{modelAssocs}) <- optimizeWith z3 Lexicographic (problem prog)
+  putStrLn $ concatMap (show . extract modelAssocs) wNames
  where
-  go m = maybe m go (step (V.fromList prog) m)
+   extract values var | Just (CV _ (CInteger n)) <- lookup var values = n
 
-solve :: Input -> [Int]
-solve prog = head [n | n <- replicateM 14 [9, 8 .. 1], process prog n == 0]
+-- REVERSE ENGINEERING
 
 prettyProg :: Input -> String
 prettyProg prog = unlines (zipWith prettyNumberedInstr [0 :: Int ..] prog)
@@ -156,44 +146,15 @@ prettyProg prog = unlines (zipWith prettyNumberedInstr [0 :: Int ..] prog)
   prettyNumberedInstr i instr = printf "%03d    %s" i (prettyInstr instr)
 
 prettyInstr :: Instr -> String
-prettyInstr (Inp x) = printf "%s = read()" (prettyName x)
-prettyInstr (Add x v) = printf "%s += %s " (prettyName x) (prettyVal v)
-prettyInstr (Mul x v) = printf "%s *= %s " (prettyName x) (prettyVal v)
-prettyInstr (Div x v) = printf "%s /= %s " (prettyName x) (prettyVal v)
-prettyInstr (Mod x v) = printf "%s = %s %% %s" (prettyName x) (prettyName x) (prettyVal v)
-prettyInstr (Eql x v) = printf "%s = (%s == %s) ? 1 : 0" (prettyName x) (prettyName x) (prettyVal v)
+prettyInstr (Inp x) = printf "%s = read()" x
+prettyInstr (Add x v) = printf "%s += %s " x (prettyVal v)
+prettyInstr (Mul x v) = printf "%s *= %s " x (prettyVal v)
+prettyInstr (Div x v) = printf "%s /= %s " x (prettyVal v)
+prettyInstr (Mod x v) = printf "%s = %s %% %s" x x (prettyVal v)
+prettyInstr (Eql x v) = printf "%s = (%s == %s) ? 1 : 0" x x (prettyVal v)
 
-prettyName W = "w"
-prettyName X = "x"
-prettyName Y = "y"
-prettyName Z = "z"
-
-prettyVal (Var n) = prettyName n
+prettyVal (Var n) = n
 prettyVal (Lit n) = show n
-
-extract :: Input -> [(Int, Int, Int)]
-extract prog = map extractChunk (chunksOf 18 prog)
- where
-  extractChunk [_, _, _, _, Div Z (Lit a), Add X (Lit b), _, _, _, _, _, _, _, _, _, Add Y (Lit c), _, _] = (a, b, c)
-  extractChunk _ = error "extract"
-
-process :: Input -> [Int] -> Int
-process prog input = go (extract prog) input 0
- where
-  go _ [] z = z
-  go ((a, b, c) : fs) (w : ws) z = go fs ws (if (z `mod` 26) + b == w then z `div` a else (z `div` a) * 26 + w + c)
-
-prog = parse $ unsafePerformIO (readFile "/home/polux/projects/aoc/2021/day24-1/input")
-
--- >>> process prog [1..14] == z (eval prog [1..14])
--- True
--- >>> process prog [10,13,15,-12,14,-2,13,-12,15,11,-3,-13,-12,-13]
--- 0
-
-prettyEqn :: (Int, Int, Int) -> String
-prettyEqn (1, b, c) = printf "z = if (z `mod` 26) + %d == w then z else z * 26 + w + %d" b c
-prettyEqn (26, b, c) = printf "z = if (z `mod` 26) + %d == w then z `div` 26 else (z `div` 26) * 26 + w + %d" b c
-prettyEqn _ = error "prettyEqn"
 
 {-
 
@@ -219,7 +180,7 @@ z14 = 0
 
 1 <= wi <= 9
 
-find the wis that maximize w1*10^14 + w2*10^13 + ... + w14
+find the wis that maximize w1*10^13 + w2*10^12 + ... + w14
 
 -}
 
@@ -238,39 +199,3 @@ z2  = if (z1  % 26) +  13 == w2  then z1       else z1         * 26 + w2  + 5
 
 -}
 
-problem :: Goal
-problem = do
-  zs@[z0, z1, z2, z3, z4, z5, z6, z7, z8, z9, z10, z11, z12, z13, z14] <- mapM sInteger ["z" ++ show i | i <- [0 .. 14]]
-  ws@[w1, w2, w3, w4, w5, w6, w7, w8, w9, w10, w11, w12, w13, w14] <- mapM sInteger ["w" ++ show i | i <- [1 .. 14]]
-  forM_ ws $ \wi -> do
-    constrain (inRange wi (1, 9))
-  constrain $ z0 .== 0
-  constrain $ z14 .== 0
-
-  --constrain $ z13 .== symbolicMerge True (z12 `sMod` 26 - 12 .== w13) (z12 `sDiv` 26) ((z12 `sDiv` 26) * 26 + w13 + 4)
-  --constrain $ z14 .== symbolicMerge True (z13 `sMod` 26 - 13 .== w14) (z13 `sDiv` 26) ((z13 `sDiv` 26) * 26 + w14 + 11)
-
-  forM_ (zip4 (extract prog) zs ws (tail zs)) $ \((a, b, c), oldz, w, newz) ->
-    constrain $
-      newz
-        .== symbolicMerge
-          True
-          (oldz `sMod` 26 + fromIntegral b .== w)
-          (oldz `sDiv` fromIntegral a)
-          ((oldz `sDiv` fromIntegral a) * 26 + w + fromIntegral c)
-
-  maximize "goal" $
-    w1 * 10000000000000
-      + w2 * 1000000000000
-      + w3 * 100000000000
-      + w4 * 10000000000
-      + w5 * 1000000000
-      + w6 * 100000000
-      + w7 * 10000000
-      + w8 * 1000000
-      + w9 * 100000
-      + w10 * 10000
-      + w11 * 1000
-      + w12 * 100
-      + w13 * 10
-      + w14
