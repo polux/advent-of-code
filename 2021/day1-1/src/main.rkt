@@ -1,7 +1,7 @@
 #lang racket
 
 (require advent-of-code)
-(require (only-in point-free ~>))
+(require threading)
 (require seq)
 (require relation/composition)
 
@@ -9,19 +9,19 @@
   (fetch-aoc-input (find-session) 2021 1 #:cache #t))
 
 (define (parse str)
-  (~> str
-      string-split
-      (curry map string->number)))
+  (~>> str
+       string-split
+       (map string->number)))
 
 (define (solve input)
   (define (delta x y)
     (if (> y x) 1 0))
-  (~> (zip-with delta input (rest input))
-      sum))
+  (~>> (zip-with delta input (rest input))
+       sum))
 
 (define (pretty sol) sol)
 
-(~> str-input
-    parse
-    solve
-    pretty)
+(~>> str-input
+     parse
+     solve
+     pretty)
