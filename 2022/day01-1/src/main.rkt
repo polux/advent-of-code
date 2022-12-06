@@ -17,9 +17,6 @@
        (map #{apply + %})
        (apply max)))
 
-(define (pretty sol) sol)
-
 (~>> str-input
      parse
-     solve
-     pretty)
+     solve)
