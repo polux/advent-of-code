@@ -21,7 +21,7 @@ module Main where
 -- #region imports
 
 import Control.Arrow (Arrow (first, second), (***), (>>>))
-import Control.Lens (at, each, folded, isn't, ix, traversed, (%~), (&), (.~), (?~), (^.), (^..), (^?), _1, _2, _3, _4)
+import Control.Lens (at, each, folded, isn't, ix, to, traversed, (%~), (&), (.~), (?~), (^.), (^..), (^?), _1, _2, _3, _4)
 import Control.Lens.Extras (is)
 import Control.Monad (forM_, unless, when)
 import qualified Data.Array as A
@@ -102,7 +102,8 @@ solve :: Input -> Output
 solve (initStacks, instrs) = map (`Seq.index` 0) (M.elems result)
  where
   result = foldl' step initStacks instrs
-  step stacks (n, from, to) =
-    stacks
-      & ix from %~ Seq.drop n
-      & ix to %~ (Seq.take n (stacks ^. ix from) ><)
+  step stacks (n, i, j) =
+    let (prefix, suffix) = stacks ^. ix i . to (Seq.splitAt n)
+     in stacks
+          & ix i .~ suffix
+          & ix j %~ (prefix ><)
