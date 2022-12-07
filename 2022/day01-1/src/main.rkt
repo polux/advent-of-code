@@ -9,8 +9,8 @@
 (define (parse str)
   (~>> str
        (string-split _ "\n\n")
-       (map (lambda~>> string-split
-                       (map string->number)))))
+       (map (λ~>> string-split
+                  (map string->number)))))
 
 (define (solve input)
   (~>> input
