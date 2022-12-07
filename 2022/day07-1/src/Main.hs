@@ -95,6 +95,10 @@ up :: Zipper -> Zipper
 up ((d, m) : stack, fs) = (stack, Dir (M.insert d fs m))
 up _ = error "cannot up"
 
+add :: String -> FS -> Zipper -> Zipper
+add s f (stack, Dir m) = (stack, Dir (M.insert s f m))
+add _ _ _ = error "cannot add"
+
 zipUp :: Zipper -> Zipper
 zipUp z@([], _) = z
 zipUp z = zipUp (up z)
@@ -110,21 +114,20 @@ main :: IO ()
 main = readFile "input" >>= pPrint . solve . parse
 
 parse :: String -> Input
-parse = map parseLine . lines
+parse = map (parseLine . words) . lines
  where
-  parseLine (words -> ["$", "cd", x]) = CdCmd x
-  parseLine (words -> ["$", "ls"]) = LsCmd
-  parseLine (words -> ["dir", x]) = DirOut x
-  parseLine (words -> [n, x]) = FileOut (read n) x
+  parseLine ["$", "cd", x] = CdCmd x
+  parseLine ["$", "ls"] = LsCmd
+  parseLine ["dir", x] = DirOut x
+  parseLine [n, x] = FileOut (read n) x
   parseLine _ = error "parse error"
 
 step :: Zipper -> Line -> Zipper
 step z (CdCmd "..") = up z
 step z (CdCmd d) = down d z
 step z LsCmd = z
-step (stack, Dir m) (FileOut n s) = (stack, Dir (M.insert s (File n) m))
-step (stack, Dir m) (DirOut s) = (stack, Dir (M.insert s (Dir mempty) m))
-step _ _ = error "cannot apply"
+step z (FileOut n s) = add s (File n) z
+step z (DirOut s) = add s (Dir mempty) z
 
 build :: Input -> FS
 build = snd . down "/" . zipUp . foldl' step (toZipper root)
