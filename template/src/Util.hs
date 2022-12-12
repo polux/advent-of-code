@@ -114,7 +114,7 @@ converge f x =
 groupBy :: Ord k => (a -> k) -> [a] -> Map k [a]
 groupBy f xs = M.fromListWith (++) [(f x, [x]) | x <- xs]
 
--- >>> let { f 1 = [2,3]; f 3 = [4]; f 3 = [5, 6]; f 5 = [4]; f _ = []} in bfs f (==4) 1
+-- >>> let { f 1 = [2,3]; f 2 = [5,6]; f 3 = [1, 4]; f 5 = [4]; f _ = []} in bfs f (==4) 1
 -- Just [1,3,4]
 bfs
   :: Ord a
@@ -122,19 +122,19 @@ bfs
   -> (a -> Bool) -- ^ isTarget
   -> a           -- ^ source
   -> Maybe [a]   -- ^ path from source to target
-bfs neighbors isTarget source = go mempty (Seq.singleton [source])
+bfs neighbors isTarget source = go (S.singleton source) (Seq.singleton [source])
  where
   go _ Empty = Nothing
   go seen ([] :<| _) = error "unexpected empty path"
   go seen (path@(cell : _) :<| paths)
-    | cell `S.member` seen = go seen paths
     | isTarget cell = Just $ reverse path
     | otherwise =
-        go
-          (S.insert cell seen)
-          (paths <> Seq.fromList [n : path | n <- neighbors cell])
+        let ns = neighbors cell & filter (`S.notMember` seen)
+         in go
+              (foldr S.insert seen ns)
+              (paths <> Seq.fromList [n : path | n <- ns])
 
--- >>> let { f 1 = [2,3]; f 2 = [4]; f 3 = [5, 6]; f 5 = [4]; f _ = []} in dijkstra f (\_ _ -> 1::Int) (==4) 1
+-- >>> let { f 1 = [2,3]; f 2 = [1,4]; f 3 = [5, 6]; f 5 = [4]; f _ = []} in dijkstra f (\_ _ -> 1::Int) (==4) 1
 -- Just (2,[1,2,4])
 dijkstra
   :: (Ord a, Num c, Ord c, Bounded c)
