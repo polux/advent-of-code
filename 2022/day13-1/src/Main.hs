@@ -84,20 +84,12 @@ main :: IO ()
 main = readFile "input" >>= print . solve . parse
 
 parse :: String -> Input
-parse = runParserOrDie (inputParser <* do { P.space ; P.eof })
+parse = runParserOrDie (inputParser <* P.eof)
  where
-   inputParser = treePairParser `P.sepBy` P.try (do { P.newline ; P.newline })
-   treePairParser = do
-    t1 <- treeParser
-    P.newline
-    t2 <- treeParser
-    return (t1, t2)
+   inputParser = (treePairParser <* P.newline) `P.sepBy` P.newline
+   treePairParser = (,) <$> (treeParser <* P.newline) <*> treeParser
    treeParser = nodeParser P.<|> numParser
-   nodeParser = do
-     P.char '['
-     children <- treeParser `P.sepBy` P.char ','
-     P.char ']'
-     return (Node children)
+   nodeParser = Node <$> P.between (P.char '[') (P.char ']') (treeParser `P.sepBy` P.char ',')
    numParser = Leaf <$> L.decimal
 
 instance Ord Tree where
