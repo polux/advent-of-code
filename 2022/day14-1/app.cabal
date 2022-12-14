@@ -43,7 +43,7 @@ executable app
                        pcre2,
                        QuickCheck,
                        psqueues,
-                       not-gloss
+                       gloss
   -- hs-source-dirs:
   default-language:    Haskell2010
   ghc-options:
