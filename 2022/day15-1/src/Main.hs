@@ -84,15 +84,7 @@ main = readFile "input" >>= print . solve . parse
 parse :: String -> Input
 parse = map parseLine . lines
  where
-  parseLine
-    ( splitOn "=" ->
-        [ _
-          , splitOn "," -> [read -> x1, _]
-          , splitOn ":" -> [read -> y1, _]
-          , splitOn "," -> [read -> x2, _]
-          , read -> y2
-          ]
-      ) = (V2 x1 y1, V2 x2 y2)
+  parseLine (ints->[x1,y1,x2,y2]) = (V2 x1 y1, V2 x2 y2)
   parseLine _ = error "parse error"
 
 distance p1 p2 = sum (fmap abs (p2 - p1))
