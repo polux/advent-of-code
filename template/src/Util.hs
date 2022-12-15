@@ -39,6 +39,7 @@ import Data.List (tails, foldl')
 import Numeric (readHex, showHex)
 import qualified Data.OrdPSQ as PQueue
 import Data.Maybe (fromMaybe)
+import Data.Char (isDigit)
 
 pTraceShow :: Show a => a -> b -> b
 pTraceShow x = trace (LT.unpack (pShow x))
@@ -350,3 +351,11 @@ bisect p l u
   | otherwise =
       let m = (l+u) `div` 2
       in if p m then bisect p m u else bisect p l m
+
+-- >>> ints "foo x=12, y=-34 bar x=40, y=5"
+-- [12,-34,40,5]
+ints :: String -> [Int]
+ints "" = []
+ints s@(c:cs) | isDigit c = let (prefix, suffix) = span isDigit cs in read (c:prefix) : ints suffix
+ints s@('-':c:cs) | isDigit c = let (prefix, suffix) = span isDigit cs in - read (c:prefix) : ints suffix
+ints (c:cs) = ints cs
