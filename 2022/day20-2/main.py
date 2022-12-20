@@ -4,20 +4,24 @@ next = [(i+1) % N for i in range(N)]
 prev = [(i-1) % N for i in range(N)]
 z_pos = ns.index(0)
 
-def step(i):
+def move_before(i, j):
+  if i == prev[j]:
+    return
   ni = next[i]
-  nni = next[ni]
   pi = prev[i]
+  pj = prev[j]
   next[pi] = ni
   prev[ni] = pi
-  next[ni] = i
-  prev[i] = ni
-  next[i] = nni
-  prev[nni] = i
+  next[pj] = i
+  prev[i] = pj
+  next[i] = j
+  prev[j] = i
 
 def move_by(i, d):
-  for _ in range(d):
-    step(i)
+  j = i
+  for _ in range(d+1):
+    j = next[j]
+  move_before(i, j)
 
 def value_at(n):
   i = z_pos
