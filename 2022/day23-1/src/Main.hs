@@ -12,6 +12,7 @@
 {-# LANGUAGE RecordWildCards #-}
 {-# LANGUAGE TupleSections #-}
 {-# LANGUAGE ViewPatterns #-}
+{-# LANGUAGE TypeApplications #-}
 
 -- #endregion
 
@@ -60,6 +61,7 @@ import qualified Text.Megaparsec.Char.Lexer as L
 import Text.Pretty.Simple (pPrint, pShow)
 import Text.Regex.PCRE ((=~))
 import Util
+import Data.Generics.Product (types)
 
 -- #endregion
 
@@ -101,8 +103,6 @@ neighbors (V2 x y) =
     (V2 (x - 1) y)
     (V2 (x - 1) (y - 1))
 
-toSet (N a b c d e f g h) = S.fromList [a, b, c, d, e, f, g, h]
-
 rules =
   [ ([n, ne, nw], V2 0 (-1))
   , ([s, se, sw], V2 0 1)
@@ -113,7 +113,7 @@ rules =
 rotate rs = tail rs ++ [head rs]
 
 proposal grid rs v
-  | all empty (toSet ns) = Nothing
+  | all empty (ns ^.. types @(V2 Int)) = Nothing
   | otherwise = (v +) <$> headMay [d | (c, d) <- rs, all (empty . ($ ns)) c]
  where
   ns = neighbors v
@@ -124,27 +124,30 @@ proposals grid rs = M.fromListWith (++) [(p, [v]) | v <- S.toList grid, p <- may
 -- only singletons
 moves ps = [(v, p) | (p, [v]) <- M.toList ps]
 
-applyMoves grid mvs = foldr applyMove grid mvs
+applyMoves = foldr applyMove
  where
   applyMove (v, p) g = S.insert p (S.delete v g)
 
 step (grid, rs) = (applyMoves grid (moves (proposals grid rs)), rotate rs)
 
 bbox grid =
-  ( V2 (minimum (grid ^.. folded ._x)) (minimum (grid ^.. folded . _y))
-  , V2 (maximum (grid ^.. folded ._x )) (maximum (grid ^.. folded . _y))
+  ( V2 (minimum xs) (minimum ys)
+  , V2 (maximum xs) (maximum ys)
   )
+ where
+  xs = grid ^.. folded . _x
+  ys = grid ^.. folded . _y
 
 inside (V2 x y) (V2 minx miny, V2 maxx maxy) = x >= minx && x <= maxx && y >= miny && y <= maxy
 
-count grid = area - length (S.filter (`inside` box) grid)
-  where
-    box@(V2 xmin ymin, V2 xmax ymax) = bbox grid
-    area = (xmax-xmin+1) * (ymax-ymin+1)
+count grid = area - length grid
+ where
+  box@(V2 xmin ymin, V2 xmax ymax) = bbox grid
+  area = (xmax - xmin + 1) * (ymax - ymin + 1)
 
-display grid = unlines [[if V2 x y `S.member` grid then '#' else '.' | x <- [xmin..xmax]] | y <- [ymin..ymax]]
-  where
-    box@(V2 xmin ymin, V2 xmax ymax) = bbox grid
+display grid = unlines [[if V2 x y `S.member` grid then '#' else '.' | x <- [xmin .. xmax]] | y <- [ymin .. ymax]]
+ where
+  box@(V2 xmin ymin, V2 xmax ymax) = bbox grid
 
 -- solve :: Input -> Output
 solve input = iterate step (input, rules) !! 10 & fst & count
