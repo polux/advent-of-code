@@ -102,7 +102,7 @@ toDot g = unlines vertices ++ unlines (map edgeToDot $ edges $ M.toList g)
 convert :: Input -> Graph
 convert input = M.fromList [(number v, (c, map number vs)) | (v, (c, vs)) <- M.toList input]
  where
-  numbers = M.fromList (zip (M.keys input) [0 ..])
+  numbers = M.fromList (zip (M.keys input) [1 ..])
   number v = numbers M.! v
 
 type BitSet = Int
@@ -132,7 +132,7 @@ percentSame f q = ((PQ.toList q & map (f . snd) & S.fromList & length) * 100) `d
 -- solve :: Input -> Output
 solve input = traceShow (upperBound initState) $ go mempty 0 (PQ.singleton (upperBound initState, initState))
  where
-  initState = mkS 0 0 0 0 initValves 25 0
+  initState = mkS 1 0 1 0 initValves 25 0
   initValves = foldl' setBit 0 [v | (v,(0,_)) <- M.toList graph]
   graph = convert input
   vertices = M.keys graph
