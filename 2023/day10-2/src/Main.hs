@@ -90,32 +90,12 @@ solve input = length [i | i <- UA.indices input, i `S.notMember` loopSet && insi
  where
   loop = start : go start (inferredNeighbor start)
   loopSet = S.fromList loop
-  expandedLoop = S.fromList (concatMap expand loop)
 
-  halfUp = V2 0 (-1/2)
-  halfDown = V2 0 (1/2)
-  halfRight = V2 (1/2) 0
-  halfLeft = V2 (-1/2) 0
+  hray v@(V2 _ j) = takeWhile (/= v) (iterate (+ V2 1 0) (V2 0 j))
 
-  expand :: V2 Int -> [V2 (Ratio Int)]
-  expand i =
-    let fi = fmap fromIntegral i
-    in case valueAt' i of
-      '|' -> [fi + halfUp, fi + halfDown]
-      '-' -> [fi + halfLeft, fi + halfRight]
-      'L' -> [fi + halfUp, fi + halfRight]
-      'J' -> [fi + halfUp, fi + halfLeft]
-      'F' -> [fi + halfDown, fi + halfRight]
-      '7' -> [fi + halfLeft, fi + halfDown]
-      _ -> error "unknown pipe type"
-
-  offset :: V2 Int -> V2 (Ratio Int)
-  offset (V2 x y) = V2 (fromIntegral x) (fromIntegral y+1/2)
-
-  hray :: V2 (Ratio Int) -> [V2 (Ratio Int)]
-  hray i = takeWhile (\(V2 x y) -> x < fromIntegral w) (iterate (+ V2 1 0) i)
-
-  inside i = odd (length (filter (`S.member` expandedLoop) (hray (offset i))))
+  inside i = odd (length (filter counts (hray i)))
+    where
+      counts v = v `S.member` loopSet && valueAt v `elem` "|F7"
 
   go prev i | valueAt i == 'S' = [i]
             | otherwise = i : go i (neighbor prev i)
