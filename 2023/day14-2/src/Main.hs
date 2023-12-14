@@ -93,11 +93,6 @@ tiltRow = go 0 0
   go i n ('.' : cs) = go (i + 1) n cs
   go i n ('O' : cs) = go (i + 1) (n + 1) cs
 
-eastToNorth = map reverse . transpose
-northToWest = map reverse . transpose . map reverse
-westToSouth = transpose . map reverse
-southToEast = transpose
-
 rebuild w = map (rebuildRow w)
  where
   rebuildRow w = go 1
