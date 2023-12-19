@@ -162,9 +162,6 @@ solve (rules, partss) =
     aEvalInstr i (withCond cond parts) + aEvalCInstrs cis (withNotCond cond parts)
   aEvalCInstrs [] parts = 0
 
-  aEvalCInstr (CInstr cond i) parts = aEvalInstr i (withCond cond parts)
-
-  -- aEvalInstr :: Instr -> AParts -> Int
   aEvalInstr Accept aparts = cardinal aparts
   aEvalInstr Reject aparts = 0
   aEvalInstr (Goto r) aparts = aEvalAt r aparts
