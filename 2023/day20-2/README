@@ -1,0 +1,1 @@
+The register flips once 4 counters modulo are aligned (see picture). We compute the lcm of the periods.
