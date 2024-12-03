@@ -26,8 +26,7 @@ import Data.Void (Void)
 import Data.Word (Word8)
 import Debug.Trace (trace)
 import Linear (V2 (..), V3 (V3))
-import qualified Text.Megaparsec as P
-import qualified Text.Megaparsec.State as P
+import Text.Megaparsec (Parsec, errorBundlePretty, runParser)
 import Text.Pretty.Simple (pShow)
 import qualified Crypto.Hash.MD5 as MD5
 import qualified Data.ByteString.Base16 as Base16
@@ -48,18 +47,12 @@ pTraceShow x = trace (LT.unpack (pShow x))
 pTraceShowId :: Show a => a -> a
 pTraceShowId x = pTraceShow x x
 
-type Parser = P.Parsec Void String
-
-runParserMaybe :: Parser a -> String -> Maybe (a, String)
-runParserMaybe p s =
-  case P.runParser' p (P.initialState "" s) of
-    (state, Right res) -> Just (res, P.stateInput state)
-    _ -> Nothing
+type Parser = Parsec Void String
 
 runParserOrDie :: Parser a -> String -> a
 runParserOrDie p str =
-  case P.runParser p "" str of
-    Left err -> error (P.errorBundlePretty err)
+  case runParser p "" str of
+    Left err -> error (errorBundlePretty err)
     Right res -> res
 
 arrayFromList1D :: (IA.IArray a e, IA.Ix i, Num i, Enum i) => [e] -> a i e
