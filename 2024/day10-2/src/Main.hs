@@ -82,15 +82,13 @@ main = readFile "input" >>= print . solve . parse
 parse :: String -> Input
 parse = arrayFromList2D . map (map (read . singleton)) . lines
 
-solve input = sum $ map score zeroes
+solve input = sum $ map numTrails zeroes
   where
     at p = input UA.! p
     zeroes = [p | p <- UA.indices input, at p == 0]
     size = arraySize input
 
-    score p = mNumTrails p 0
+    mNumTrails = memo numTrails
 
-    mNumTrails = memo2 numTrails
-
-    numTrails p 9 = 1
-    numTrails p n = sum [mNumTrails pn (n+1) | pn <- neighbors2D size p, at pn == (n+1)]
+    numTrails p | at p == 9 = 1
+    numTrails p = sum [mNumTrails n | n <- neighbors2D size p, at n == at p + 1]

@@ -88,9 +88,9 @@ solve input = sum $ map score zeroes
     zeroes = [p | p <- UA.indices input, at p == 0]
     size = arraySize input
 
-    score p = length (reachableNines p 0)
+    score p = length (reachableNines p)
 
-    mReachableNines = memo2 reachableNines
+    mReachableNines = memo reachableNines
 
-    reachableNines p 9 = S.singleton p
-    reachableNines p n = S.unions [mReachableNines pn (n+1) | pn <- neighbors2D size p, at pn == (n+1)]
+    reachableNines p | at p == 9 = S.singleton p
+    reachableNines p = S.unions [mReachableNines n | n <- neighbors2D size p, at n == at p + 1]
