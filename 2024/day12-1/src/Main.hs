@@ -30,6 +30,7 @@ import qualified Data.ByteString as BS
 import qualified Data.ByteString.Char8 as BS8
 import qualified Data.ByteString.Lazy as LBS
 import qualified Data.ByteString.Lazy.Char8 as LBS8
+import Data.Foldable (toList)
 import Data.Functor ((<&>))
 import Data.Generics.Labels ()
 import qualified Data.Graph.Inductive as G
@@ -60,7 +61,6 @@ import qualified Text.Megaparsec.Char.Lexer as L
 import Text.Pretty.Simple (pPrint, pShow)
 import Text.Regex.PCRE ((=~))
 import Util
-import Data.Foldable (toList)
 
 -- #endregion
 
@@ -78,37 +78,38 @@ parseRegex = map parseLine . T.lines . T.pack
 
 type Input = UA.Array (V2 Int) Char
 
-
 main :: IO ()
 main = readFile "input" >>= print . solve . parse
 
 parse :: String -> Input
 parse = arrayFromList2D . lines
 
-solve input = areas & map snd & map (\set -> length set * perimeter set) & sum
+solve input = areas & map score & sum
  where
   at p = input UA.! p
 
+  score set = length set * perimeter set
   perimeter set = sum [4 - numNeighbors p set | p <- toList set]
   numNeighbors p set = length [() | n <- neighbors2D (arraySize input) p, n `S.member` set]
 
   areas = go mempty (UA.assocs input)
    where
-
-    go :: [(Char, Set (V2 Int))] -> [(V2 Int, Char)] -> [(Char, Set (V2 Int))]
+    go :: [Set (V2 Int)] -> [(V2 Int, Char)] -> [Set (V2 Int)]
     go seen [] = seen
     go seen ((pos, c) : ps)
-      | pos `elem` S.unions (map snd seen) = go seen ps
-      | otherwise = go ((c, flood c mempty [pos]):seen) ps
+      | any (pos `S.member`) seen = go seen ps
+      | otherwise = go (flood c mempty [pos] : seen) ps
 
     flood :: Char -> Set (V2 Int) -> [V2 Int] -> Set (V2 Int)
     flood c seen [] = seen
-    flood c seen (pos : poss) =
+    flood c seen (p : ps) =
       flood
         c
-        (S.insert pos seen)
-        ([ n
-        | n <- neighbors2D (arraySize input) pos
-        , at n == c
-        , pos `S.notMember` seen
-        ] ++ poss)
+        (S.insert p seen)
+        ( [ n
+          | n <- neighbors2D (arraySize input) p
+          , at n == c
+          , p `S.notMember` seen
+          ]
+            ++ ps
+        )

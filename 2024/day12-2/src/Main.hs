@@ -64,18 +64,6 @@ import Util
 
 -- #endregion
 
--- #region regex parsing
-{-
-import Text.Regex.Pcre2 (regex)
-
-parseRegex :: String -> [Int]
-parseRegex = map parseLine . T.lines . T.pack
- where
-   toInt = read . T.unpack
-   parseLine [regex|some example regex: (?<x>\d+)|] = toInt x
--}
--- #endregion
-
 type Input = UA.Array (V2 Int) Char
 
 main :: IO ()
@@ -84,7 +72,7 @@ main = readFile "input" >>= print . solve . parse
 parse :: String -> Input
 parse = arrayFromList2D . lines
 
-solve input = areas & map snd & map score & sum
+solve input = areas & map score & sum
  where
   at p = input UA.! p
 
@@ -118,22 +106,22 @@ solve input = areas & map snd & map score & sum
 
   areas = go mempty (UA.assocs input)
    where
-    go :: [(Char, Set (V2 Int))] -> [(V2 Int, Char)] -> [(Char, Set (V2 Int))]
+    go :: [Set (V2 Int)] -> [(V2 Int, Char)] -> [Set (V2 Int)]
     go seen [] = seen
     go seen ((pos, c) : ps)
-      | pos `elem` S.unions (map snd seen) = go seen ps
-      | otherwise = go ((c, flood c mempty [pos]) : seen) ps
+      | any (pos `S.member`) seen = go seen ps
+      | otherwise = go (flood c mempty [pos] : seen) ps
 
     flood :: Char -> Set (V2 Int) -> [V2 Int] -> Set (V2 Int)
     flood c seen [] = seen
-    flood c seen (pos : poss) =
+    flood c seen (p : ps) =
       flood
         c
-        (S.insert pos seen)
+        (S.insert p seen)
         ( [ n
-          | n <- neighbors2D (arraySize input) pos
+          | n <- neighbors2D (arraySize input) p
           , at n == c
-          , pos `S.notMember` seen
+          , p `S.notMember` seen
           ]
-            ++ poss
+            ++ ps
         )
