@@ -1,72 +1,27 @@
 -- Copyright 2022 Google LLC.
 -- SPDX-License-Identifier: Apache-2.0
--- #region language extensions
-{-# LANGUAGE DeriveGeneric #-}
-{-# LANGUAGE DuplicateRecordFields #-}
-{-# LANGUAGE FlexibleContexts #-}
-{-# LANGUAGE GADTs #-}
-{-# LANGUAGE NumericUnderscores #-}
-{-# LANGUAGE OverloadedLabels #-}
-{-# LANGUAGE QuasiQuotes #-}
-{-# LANGUAGE RecordWildCards #-}
-{-# LANGUAGE TupleSections #-}
-{-# LANGUAGE ViewPatterns #-}
 
--- #endregion
+{-# LANGUAGE MultiParamTypeClasses #-}
+{-# LANGUAGE DerivingStrategies #-}
+{-# LANGUAGE GeneralizedNewtypeDeriving #-}
 
 module Main where
 
--- #region imports
+import Data.FingerTree (ViewL ((:<)), ViewR (..), (<|), (><), (|>))
+import qualified Data.FingerTree as F
+import Data.Foldable (toList)
+import Data.Semigroup (Max (..))
+import Data.Function ((&))
+import Util (singleton)
 
-import Control.Applicative (Alternative ((<|>)), liftA2)
-import Control.Arrow (Arrow (first, second), (***), (>>>))
-import Control.Lens (at, each, folded, isn't, ix, traversed, (%~), (&), (.~), (?~), (^.), (^..), (^?), _1, _2, _3, _4)
-import Control.Lens.Extras (is)
-import Control.Monad (forM_, unless, when)
-import qualified Data.Array as A
-import qualified Data.Array.Unboxed as UA
-import qualified Data.ByteString as BS
-import qualified Data.ByteString.Char8 as BS8
-import qualified Data.ByteString.Lazy as LBS
-import qualified Data.ByteString.Lazy.Char8 as LBS8
-import Data.Functor ((<&>))
-import Data.Generics.Labels ()
-import qualified Data.Graph.Inductive as G
-import Data.Graph.Inductive.PatriciaTree (Gr)
-import Data.List (elemIndex, sortOn)
-import Data.List.Split (chunksOf, splitOn)
-import Data.Map.Strict (Map)
-import qualified Data.Map.Strict as M
-import Data.Maybe (catMaybes, fromJust, fromMaybe)
-import Data.MemoTrie
-import Data.Sequence (Seq (..))
-import qualified Data.Sequence as Seq
-import Data.Set (Set)
-import qualified Data.Set as S
-import qualified Data.Text as T
-import qualified Data.Text.Lazy as LT
-import Data.Vector (Vector)
-import qualified Data.Vector as V
-import qualified Data.Vector.Unboxed as UV
-import qualified Data.Vector.Unboxed.Mutable as MUV
-import Debug.Trace (trace, traceShow, traceShowId)
-import GHC.Generics (Generic)
-import Linear (V2 (..), _x, _y)
-import Safe hiding (at)
-import qualified Text.Megaparsec as P
-import qualified Text.Megaparsec.Char as P
-import qualified Text.Megaparsec.Char.Lexer as L
-import Text.Pretty.Simple (pPrint, pShow)
-import Text.Regex.PCRE ((=~))
-import Util
+main :: IO ()
+main = readFile "input" >>= print . solve . parse
 
 data Block
   = Free Int -- length
   | File Int Int -- length, indentifier
+  deriving (Show)
 type Input = [Block]
-
-main :: IO ()
-main = readFile "input" >>= print . solve . parse
 
 parse :: String -> Input
 parse = go 0 . map (read . singleton) . head . lines
@@ -74,6 +29,15 @@ parse = go 0 . map (read . singleton) . head . lines
   go _ [] = []
   go id [n] = [File n id]
   go id (n : m : ns) = File n id : Free m : go (id + 1) ns
+
+newtype BlockMeasure = BlockMeasure (Max Int)
+  deriving newtype (Semigroup, Monoid)
+
+instance F.Measured BlockMeasure Block where
+  measure (Free l) = BlockMeasure (Max l)
+  measure (File _ _) = BlockMeasure (Max 0)
+
+maxFreeLen (BlockMeasure (Max l)) = l
 
 solve :: [Block] -> Int
 solve input =
@@ -83,21 +47,17 @@ solve input =
     & zipWith (*) [0 ..]
     & sum
  where
-  insert :: Int -> Int -> Input -> Maybe Input
-  insert _ _ [] = Nothing
-  insert n l (x@File{} : xs) = fmap (x :) (insert n l xs)
-  insert n l (x@(Free l') : xs)
-    | l <= l' = fmap (x :) (insert n l xs) <|> Just (Free (l' - l) : File l n : xs)
-    | otherwise = fmap (x :) (insert n l xs)
-
-  defrag s = reverse (go (reverse s))
+  defrag s = toList (go (F.fromList s))
    where
-    go [] = []
-    go (File l n : ns) =
-      case insert n l ns of
-        Just ns' -> Free l : go ns'
-        Nothing -> File l n : go ns
-    go (Free l : ns) = Free l : go ns
+    go ft =
+      case F.viewr ft of
+        EmptyR -> ft
+        ft :> Free l -> go ft |> Free l
+        ft :> File l n ->
+          let (prefix, suffix) = F.split (\m -> maxFreeLen m >= l) ft
+           in case F.viewl suffix of
+                Free l' :< suffix' -> go (prefix >< File l n <| Free (l' - l) <| suffix') |> Free l
+                _ -> go ft |> File l n
 
   expand [] = []
   expand (Free l : ns) = replicate l 0 <> expand ns

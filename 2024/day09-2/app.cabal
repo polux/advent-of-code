@@ -42,7 +42,8 @@ executable app
                        base16-bytestring,
                        pcre2,
                        QuickCheck,
-                       psqueues
+                       psqueues,
+                       fingertree
   -- hs-source-dirs:
   default-language:    Haskell2010
   ghc-options:
