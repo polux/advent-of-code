@@ -206,6 +206,12 @@ neighbors2D (toPair-> (width, height)) (toPair-> (i, j)) =
  where
   withinBounds (toPair->(i,j)) = i >= 0 && i < width && j >= 0 && j < height
 
+turnRight2D :: V2 Int -> V2 Int
+turnRight2D (V2 x y) = V2 (-y) x
+
+turnLeft2D :: V2 Int -> V2 Int
+turnLeft2D (V2 x y) = V2 y (-x)
+
 -- | chineseRemainder [(a1,n1), (a2,n2), ...] finds the smallest x such that
 -- x = a1 (mod n1)
 -- x = a2 (mod n2)
