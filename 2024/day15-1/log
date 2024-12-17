@@ -1,0 +1,184 @@
+Build profile: -w ghc-9.4.8 -O1
+In order, the following will be built (use -v for more details):
+ - app-0.1.0.0 (exe:app) (file src/Main.hs changed)
+Preprocessing executable 'app' for app-0.1.0.0..
+Building executable 'app' for app-0.1.0.0..
+[2 of 2] Compiling Main             ( src/Main.hs, /home/deck/projects/advent-of-code/2024/day15-1/dist-newstyle/build/x86_64-linux/ghc-9.4.8/app-0.1.0.0/x/app/build/app/app-tmp/Main.o, /home/deck/projects/advent-of-code/2024/day15-1/dist-newstyle/build/x86_64-linux/ghc-9.4.8/app-0.1.0.0/x/app/build/app/app-tmp/Main.dyn_o ) [Source file changed]
+[3 of 3] Linking /home/deck/projects/advent-of-code/2024/day15-1/dist-newstyle/build/x86_64-linux/ghc-9.4.8/app-0.1.0.0/x/app/build/app/app [Objects changed]
+(Nothing,V2 1 2,V2 (-1) 0,Just '#')
+(Nothing,V2 2 1,V2 0 (-1),Nothing)
+(Nothing,V2 2 0,V2 0 (-1),Just '#')
+(Nothing,V2 3 1,V2 1 0,Just 'O')
+(Just 'O',V2 4 1,V2 1 0,Nothing)
+(Nothing,V2 4 1,V2 1 0,Just 'O')
+(Just 'O',V2 5 1,V2 1 0,Just 'O')
+(Just 'O',V2 6 1,V2 1 0,Nothing)
+(Nothing,V2 5 1,V2 1 0,Just 'O')
+(Just 'O',V2 6 1,V2 1 0,Just 'O')
+(Just 'O',V2 7 1,V2 1 0,Just '#')
+(Nothing,V2 4 2,V2 0 1,Just 'O')
+(Just 'O',V2 4 3,V2 0 1,Just 'O')
+(Just 'O',V2 4 4,V2 0 1,Just 'O')
+(Just 'O',V2 4 5,V2 0 1,Just 'O')
+(Just 'O',V2 4 6,V2 0 1,Nothing)
+(Nothing,V2 4 3,V2 0 1,Just 'O')
+(Just 'O',V2 4 4,V2 0 1,Just 'O')
+(Just 'O',V2 4 5,V2 0 1,Just 'O')
+(Just 'O',V2 4 6,V2 0 1,Just 'O')
+(Just 'O',V2 4 7,V2 0 1,Just '#')
+(Nothing,V2 3 2,V2 (-1) 0,Nothing)
+(Nothing,V2 3 3,V2 0 1,Nothing)
+(Nothing,V2 4 3,V2 1 0,Just 'O')
+(Just 'O',V2 5 3,V2 1 0,Nothing)
+(Nothing,V2 5 3,V2 1 0,Just 'O')
+(Just 'O',V2 6 3,V2 1 0,Nothing)
+(Nothing,V2 5 4,V2 0 1,Nothing)
+(Nothing,V2 4 4,V2 (-1) 0,Just 'O')
+(Just 'O',V2 3 4,V2 (-1) 0,Nothing)
+(Nothing,V2 3 4,V2 (-1) 0,Just 'O')
+(Just 'O',V2 2 4,V2 (-1) 0,Just '#')
+########
+#..O.O.#
+##@.O..#
+#...O..#
+#.#.O..#
+#...O..#
+#......#
+########
+
+########
+#..O.O.#
+##@.O..#
+#...O..#
+#.#.O..#
+#...O..#
+#......#
+########
+
+########
+#.@O.O.#
+##..O..#
+#...O..#
+#.#.O..#
+#...O..#
+#......#
+########
+
+########
+#.@O.O.#
+##..O..#
+#...O..#
+#.#.O..#
+#...O..#
+#......#
+########
+
+########
+#..@OO.#
+##..O..#
+#...O..#
+#.#.O..#
+#...O..#
+#......#
+########
+
+########
+#...@OO#
+##..O..#
+#...O..#
+#.#.O..#
+#...O..#
+#......#
+########
+
+########
+#...@OO#
+##..O..#
+#...O..#
+#.#.O..#
+#...O..#
+#......#
+########
+
+########
+#....OO#
+##..@..#
+#...O..#
+#.#.O..#
+#...O..#
+#...O..#
+########
+
+########
+#....OO#
+##..@..#
+#...O..#
+#.#.O..#
+#...O..#
+#...O..#
+########
+
+########
+#....OO#
+##.@...#
+#...O..#
+#.#.O..#
+#...O..#
+#...O..#
+########
+
+########
+#....OO#
+##.....#
+#..@O..#
+#.#.O..#
+#...O..#
+#...O..#
+########
+
+########
+#....OO#
+##.....#
+#...@O.#
+#.#.O..#
+#...O..#
+#...O..#
+########
+
+########
+#....OO#
+##.....#
+#....@O#
+#.#.O..#
+#...O..#
+#...O..#
+########
+
+########
+#....OO#
+##.....#
+#.....O#
+#.#.O@.#
+#...O..#
+#...O..#
+########
+
+########
+#....OO#
+##.....#
+#.....O#
+#.#O@..#
+#...O..#
+#...O..#
+########
+
+########
+#....OO#
+##.....#
+#.....O#
+#.#O@..#
+#...O..#
+#...O..#
+########
+
+
