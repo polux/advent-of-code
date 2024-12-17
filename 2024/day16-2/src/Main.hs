@@ -5,6 +5,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE FlexibleContexts #-}
 {-# LANGUAGE GADTs #-}
+{-# LANGUAGE MultiWayIf #-}
 {-# LANGUAGE NumericUnderscores #-}
 {-# LANGUAGE OverloadedLabels #-}
 {-# LANGUAGE PartialTypeSignatures #-}
@@ -138,6 +139,7 @@ dijkstra neighbors edgeCost source = go mempty (M.singleton source 0) mempty (PQ
 
   step u (dist, prev, queue) n =
     let alt = distance dist u + edgeCost u n
-     in if alt <= distance dist n
-          then (M.insert n alt dist, M.insertWith (++) n [u] prev, PQueue.insert n alt () queue)
-          else (dist, prev, queue)
+     in if
+          | alt < distance dist n -> (M.insert n alt dist, M.insert n [u] prev, PQueue.insert n alt () queue)
+          | alt == distance dist n -> (dist, M.insertWith (++) n [u] prev, queue)
+          | otherwise -> (dist, prev, queue)
