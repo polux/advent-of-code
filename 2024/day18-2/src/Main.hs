@@ -73,15 +73,15 @@ parse = map parseLine . lines
     parseLine (ints->[x,y]) = V2 x y
     parseLine _ = error "parsing"
 
-solve input = input !! (index-1)
+solve input = input !! index
  where
   source = V2 0 0
   target = V2 70 70
   gridSize = target + V2 1 1
 
-  index = head [i | (i, grid) <- zip [0..] grids, not (valid grid)]
+  index = bisect (\i -> valid (grids V.! i)) 0 (length grids)
 
-  grids = scanl (flip S.insert) mempty input
+  grids = V.fromList (scanl (flip S.insert) mempty input)
 
   valid grid = astar neighbors cost isTarget heuristic source & isJust
     where
