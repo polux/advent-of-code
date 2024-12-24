@@ -89,7 +89,7 @@ parse = map parseLine . lines
 
 solve :: Input -> _
 solve input =
-  cliques vertices
+  maxCliques vertices
     & maximumBy (comparing length)
     & sort
     & intercalate ","
@@ -98,9 +98,11 @@ solve input =
   vertices = M.keys adj
   connected a b = b `S.member` (adj M.! a)
 
-  clique = foldl' (\cl v -> if all (connected v) cl then v:cl else cl)
-
-  cliques [] = []
-  cliques vs =
-    let cl = clique [] vs
-     in cl : cliques (vs \\ cl)
+  maxCliques vs = go [] vs []
+    where
+      go r p x
+        | null p && null x = [r]
+        | otherwise = iter r p x
+      iter r [] x = []
+      iter r (v:p) x = go (v:r) (restrict p v) (restrict x v) ++ iter r p (v:x)
+      restrict s v = filter (connected v) s
