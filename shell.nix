@@ -23,6 +23,7 @@ let
       python311.pkgs.beautifulsoup4
       python311.pkgs.pebble
       python311.pkgs.aocd-example-parser
+      python311.pkgs.browser-cookie3
     ];
     pyproject = true;
     build-system = [ python311.pkgs.setuptools ];
@@ -45,6 +46,7 @@ stdenv.mkDerivation {
     haskell.compiler.ghc984
     haskell-language-server
     cabal-install
+    ghcid
   ];
   buildInputs = [
     pcre
