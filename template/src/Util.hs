@@ -26,6 +26,7 @@ import Data.Sequence (Seq (..))
 import qualified Data.Sequence as Seq
 import qualified Data.Set as S
 import qualified Data.Text.Lazy as LT
+import qualified Data.Text as T
 import Data.Void (Void)
 import Data.Word (Word8)
 import Debug.Trace (trace)
@@ -46,6 +47,7 @@ import qualified Data.OrdPSQ as PQueue
 import Data.Maybe (fromMaybe)
 import Data.Char (isDigit)
 import Data.MemoTrie (HasTrie, (:->:), trie, untrie, enumerate)
+import Text.Regex.Pcre2 (match, gsub)
 
 pTraceShow :: Show a => a -> b -> b
 pTraceShow x = trace (LT.unpack (pShow x))
@@ -369,6 +371,16 @@ bisect p l u
   | otherwise =
       let m = (l+u) `div` 2
       in if p m then bisect p m u else bisect p l m
+
+-- >>> grep "\\d+" "ab123cde45fg6"
+-- ["123","45","6"]
+grep :: String -> String -> [String]
+grep pattern str = fmap T.unpack (match (T.pack pattern) (T.pack str))
+
+-- >>> sed "mul\\((\\d+),(\\d+)\\)" "($1 * $2)" "AAmul(12,34)BBmul(34,56)CC"
+-- "AA(12 * 34)BB(34 * 56)CC"
+sed :: String -> String -> String -> String
+sed pattern replacement str = T.unpack (gsub (T.pack pattern) (T.pack replacement) (T.pack str))
 
 -- >>> ints "foo x=12, y=-34 bar x=40, y=5"
 -- [12,-34,40,5]
