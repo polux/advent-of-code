@@ -56,7 +56,7 @@ import Safe hiding (at)
 import Data.Functor ((<&>))
 import Data.MemoTrie
 import Data.Maybe (fromJust, catMaybes)
-import Data.List (sortOn, elemIndex)
+import Data.List (sort, sortOn, elemIndex)
 import Data.List.Split (splitOn, chunksOf)
 import Control.Monad (forM_, unless, when)
 
