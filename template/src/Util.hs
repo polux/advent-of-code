@@ -356,6 +356,21 @@ fromHex = fst . head . readHex
 toHex :: Int -> String
 toHex i = showHex i ""
 
+-- >>> fromDigits [1,2,3,5]
+-- 1235
+fromDigits :: [Int] -> Int
+fromDigits = foldl' (\acc b -> acc * 10 + b) 0
+
+-- >>> digits 1243
+-- [1,2,4,3]
+-- prop> \(Positive n) -> fromDigits (digits n) == n
+-- +++ OK, passed 100 tests.
+digits :: Int -> [Int]
+digits = reverse . go
+  where
+    go 0 = []
+    go n = let (q,r) = n `divMod` 10 in r : go q
+
 singleton :: a -> [a]
 singleton x = [x]
 
