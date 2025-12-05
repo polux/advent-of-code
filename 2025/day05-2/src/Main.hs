@@ -92,12 +92,13 @@ parse (splitOn "\n\n" -> [pre, post]) = (parsePre pre, parsePost post)
 -- solve :: Input -> Output
 solve (ranges, _) = [e - s + 1 | (s, e) <- fusedRanges] & sum
  where
-  fusedRanges = foldl' (flip insert) [] ranges
+  fusedRanges = go (sortOn fst ranges)
+
   overlap (s1, e1) (s2, e2) = not (s2 > e1 || s1 > e2)
+
   fuse (s1, e1) (s2, e2) = (min s1 s2, max e1 e2)
-  endsBefore (_, e1) (_, e2) = e1 <= e2
-  insert i1 [] = [i1]
-  insert i1 (i2 : is)
-    | overlap i1 i2 = insert (fuse i1 i2) is
-    | endsBefore i1 i2 = i1 : i2 : is
-    | otherwise = i2 : insert i1 is
+
+  go (i1 : i2 : is)
+    | overlap i1 i2 = go (fuse i1 i2 : is)
+    | otherwise = i1 : go (i2 : is)
+  go is = is
