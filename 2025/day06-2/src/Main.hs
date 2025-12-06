@@ -88,9 +88,8 @@ parse :: String -> Input
 parse = lines
 
 solve :: Input -> Output
-solve input = input & transpose & splitWhen (all isSpace) & map solveLine & sum
+solve input = input & transpose & splitWhen (all isSpace) & map solveBlock & sum
  where
-  solveLine :: [String] -> Int
-  solveLine (l : ls) =
+  solveBlock (l : ls) =
     let op = if last l == '+' then sum else product
      in op (map read (init l : ls))
