@@ -87,21 +87,16 @@ parse :: String -> Input
 parse = arrayFromList2D . lines
 
 -- solve :: Input -> Output
-solve input = foldl' step (0, S.singleton startX) [1..h-1] & fst
+solve input = mcollect start & length
  where
   at pos = input UA.! pos
   V2 w h = arraySize input
-  startX = head [x | x <- [0 .. w - 1], at (V2 x 0) == 'S']
+  start = head [pos | x <- [0 .. w - 1], let pos = V2 x 0, at pos == 'S']
 
-  splitAll :: Set Int -> Int -> (Int, Set Int)
-  splitAll xs y = let (Sum n, xs') = foldMap (split y) xs in (n, xs')
-   where
-    split y x =
-      if at (V2 x y) == '^'
-        then (Sum 1, S.fromList [x - 1, x + 1])
-        else (Sum 0, S.singleton x)
+  mcollect = memo collect
 
-  step :: (Int, Set Int) -> Int -> (Int, Set Int)
-  step (n, xs) y =
-    let (delta, xs') = splitAll xs y
-    in (n+delta, xs')
+  collect (V2 _ y) | y == h = S.empty
+  collect pos =
+    if at pos == '^'
+      then S.insert pos (S.union (mcollect (pos + V2 (-1) 1)) (mcollect (pos + V2 1 1)))
+      else mcollect (pos + V2 0 1)
