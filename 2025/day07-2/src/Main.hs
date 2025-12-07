@@ -78,7 +78,7 @@ parseRegex = map parseLine . T.lines . T.pack
 
 type Input = UA.Array (V2 Int) Char
 
-type Output = Input
+type Output = Int
 
 main :: IO ()
 main = readFile "input" >>= print . solve . parse
@@ -86,26 +86,17 @@ main = readFile "input" >>= print . solve . parse
 parse :: String -> Input
 parse = arrayFromList2D . lines
 
--- solve :: Input -> Output
-solve input = foldr aggr (M.fromList [(x, 1) | x <- [0 .. w - 1]]) layers
+solve :: Input -> Output
+solve input = mcount start
  where
   at pos = input UA.! pos
   V2 w h = arraySize input
-  startX = head [x | x <- [0 .. w - 1], at (V2 x 0) == 'S']
+  start = head [pos | x <- [0 .. w - 1], let pos = V2 x 0, at pos == 'S']
 
-  splitAll :: Set Int -> Int -> Map Int (Set Int)
-  splitAll xs y = M.unionsWith (<>) (map (split y) (toList xs))
-   where
-    split y x =
-      if at (V2 x y) == '^'
-        then M.singleton x (S.fromList [x - 1, x + 1])
-        else M.singleton x (S.singleton x)
+  mcount = memo count
 
-  layers :: [Map Int (Set Int)]
-  layers = scanl step (M.singleton startX (S.singleton startX)) [1 .. h - 1]
-   where
-    step :: Map Int (Set Int) -> Int -> Map Int (Set Int)
-    step pxs = splitAll (S.unions (M.elems pxs))
-
-  aggr layer counts =
-    M.fromList [(x, sum [counts M.! c | c <- toList xs]) | (x, xs) <- M.toList layer]
+  count (V2 _ y) | y == h = 1
+  count pos =
+    if at pos == '^'
+      then mcount (pos + V2 (-1) 1) + mcount (pos + V2 1 1)
+      else mcount (pos + V2 0 1)
