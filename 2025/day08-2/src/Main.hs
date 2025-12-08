@@ -94,17 +94,20 @@ parse = map parseLine . lines
   parseLine (splitOn "," -> [read -> x, read -> y, read -> z]) = V3 x y z
 
 -- solve :: Input -> Output
-solve input = UF.runEquivM (const ()) (\_ _ -> ()) (initialize input >> go sortedConnections)
+solve input = UF.runEquivM (const 1) (+) (initialize input >> go sortedConnections)
  where
 
   initialize :: _ -> UF.EquivM _ _ _ ()
   initialize = mapM_ UF.getClass
 
+  inputLen :: Int
+  inputLen = length input
+
   go [] = error "more than 1 circuit"
   go ((b1, b2) : bs) = do
     UF.equate b1 b2
-    cs <- UF.classes
-    if length cs == 1
+    size <- UF.classDesc b1
+    if size == inputLen
       then pure (b1 ^. _x * b2 ^. _x)
       else go bs
 
