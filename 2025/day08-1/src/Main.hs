@@ -95,8 +95,7 @@ parse = map parseLine . lines
 -- solve :: Input -> Output
 solve input =
   UF.runEquivM (const 1) (+) (go (take 1000 sortedConnections))
-    & sort
-    & reverse
+    & sortOn negate
     & take 3
     & product
  where
