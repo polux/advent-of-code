@@ -47,6 +47,7 @@ stdenv.mkDerivation {
     haskell-language-server
     cabal-install
     ghcid
+    cbc
   ];
   buildInputs = [
     pcre
